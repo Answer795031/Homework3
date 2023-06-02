@@ -262,9 +262,9 @@ public class Main {
         Выведите в консоль информацию по каждому сотруднику. Например: «Маша теперь получает ... рублей. Годовой доход вырос на ... рублей».
          */
 
-        float oldSalaryMasha = 67760;
-        float oldSalaryDenis = 83690;
-        float oldSalaryKristina = 76230;
+        float oldSalaryMasha = 67760f;
+        float oldSalaryDenis = 83690f;
+        float oldSalaryKristina = 76230f;
 
         double newSalaryMasha = oldSalaryMasha + (oldSalaryMasha / 100 * 10);
         double newSalaryDenis = oldSalaryDenis + (oldSalaryDenis /100 * 10);
